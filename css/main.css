@@ -197,8 +197,11 @@ button {
 }
 
 @media screen and (max-width: 768px) {
+    .logo {
+        width: 50px;
+    }
     .navbarTitle {
-        font-size: 40px;
+        font-size: 30px;
     }
     .card {
         width: calc(45% - 10px);
@@ -212,8 +215,11 @@ button {
 }
 
 @media screen and (max-width: 480px) {
+    .logo {
+        width: 30px;
+    }
     .navbarTitle {
-        font-size: 25px;
+        font-size: 20px;
     }
     .card {
         width: calc(100% - 10px);
