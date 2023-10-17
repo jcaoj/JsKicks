@@ -34,6 +34,12 @@ Phones: max-width: 480px
     border-bottom: #A6F0F5 solid 2px;
 }
 
+.navbarTitle {
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 2%;
+}
+
 .logo {
     width: 80px;
     cursor: pointer;
@@ -103,8 +109,12 @@ button {
 
  .row {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
  }
+
  .col {
     flex-basis: 33%;
  }
@@ -125,7 +135,7 @@ button {
     border-radius: 10px 10px 0 0;
  }
  .card {
-    width: 95%;
+    width: calc(30% - 10px);
     height: 45%;
     display: inline-block;
     border: #A6F0F5 1px solid;
@@ -179,3 +189,33 @@ button {
     background: #6aa7ac;
 }
 
+
+@media screen and (max-width: 1080px) {
+    #contactNav, #dealsNav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbarTitle {
+        font-size: 40px;
+    }
+    .card {
+        width: calc(45% - 10px);
+    }
+    nav ul{
+        display: none;
+    }
+    .cart {
+        float: right;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbarTitle {
+        font-size: 25px;
+    }
+    .card {
+        width: calc(100% - 10px);
+    }
+}

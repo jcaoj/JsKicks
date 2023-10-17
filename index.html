@@ -1,3 +1,5 @@
+<!-- https://www.figma.com/file/elrX11TgLsRLF1ehYT1svI/INFO3130-Midterm-Oct-2023?type=design&node-id=0-1&mode=design&t=D7JinMU3jqSDV0S1-0 -->
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -8,11 +10,9 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="css/main.css" media="screen"/>
-    <link rel="stylesheet" type="text/css" href="css/home.css" media="screen"/>
-    <link rel="stylesheet" type="text/css" href="css/section.css" media="screen"/>
   </head>
 
   <body >
@@ -20,113 +20,105 @@
         <div class="background">
             <div class="navbar">
                 <img src="assets/logo.png" class="logo">
+                <p class="navbarTitle">J's KICKS</p>
                 <nav>
                     <ul>
                         <li><a>SNEAKERS</a></li>                       
                         <li><a>EXCLUSIVES</a></li>
-                        <li><a>DEALS</a></li>
-                        <li><a>CONTACT</a></li>
+                        <li id="dealsNav"><a>DEALS</a></li>
+                        <li id="contactNav"><a>CONTACT</a></li>
                     </ul>
                 </nav>
                 <img src="assets/cart.png" class="cart">
             </div>
 
             <div class="row">
-                <div class="col">
-                    <div class="card">
-                        <img src="assets/daniel-storek-JM-qKEd1GMI-unsplash.jpg" class="productImage">
-                        <p class="productTitle">Superstar XLG</p>
-                        <div class="prow">
-                            <div class="pcol">
-                                <p class="companyName">Adidas</p>
-                                <p class="productPrice">$125</p>
-                            </div>
-                            <div class="pcol">
-                                <button type="button">Size</button>
-                                <button type="button">Add To Cart</button>
-                            </div>
+                <div class="card">
+                    <img src="assets/daniel-storek-JM-qKEd1GMI-unsplash.jpg" class="productImage">
+                    <p class="productTitle">Superstar XLG</p>
+                    <div class="prow">
+                        <div class="pcol">
+                            <p class="companyName">Adidas</p>
+                            <p class="productPrice">$125</p>
+                        </div>
+                        <div class="pcol">
+                            <button type="button">Size</button>
+                            <button type="button">Add To Cart</button>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="assets/erik-mclean-1XHPuWvMQ8Q-unsplash.jpg"  class="productImage">
-                        <p class="productTitle">X Louis Vuitton</p>
-                        <div class="prow">
-                            <div class="pcol">
-                                <p class="companyName">Nike</p>
-                                <p class="productPrice">$360</p>
-                            </div>
-                            <div class="pcol">
-                                <button type="button">Size</button>
-                                <button type="button">Add To Cart</button>
-                            </div>
+
+                <div class="card">
+                    <img src="assets/erik-mclean-1XHPuWvMQ8Q-unsplash.jpg"  class="productImage">
+                    <p class="productTitle">X Louis Vuitton</p>
+                    <div class="prow">
+                        <div class="pcol">
+                            <p class="companyName">Nike</p>
+                            <p class="productPrice">$360</p>
+                        </div>
+                        <div class="pcol">
+                            <button type="button">Size</button>
+                            <button type="button">Add To Cart</button>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="assets/erik-mclean-e_qqXYMDyfM-unsplash.jpg"  class="productImage">
-                        <p class="productTitle">Air Force 1</p>
-                        <div class="prow">
-                            <div class="pcol">
-                                <p class="companyName">Nike</p>
-                                <p class="productPrice">$175</p>
-                            </div>
-                            <div class="pcol">
-                                <button type="button">Size</button>
-                                <button type="button">Add To Cart</button>
-                            </div>
+
+                <div class="card">
+                    <img src="assets/erik-mclean-e_qqXYMDyfM-unsplash.jpg"  class="productImage">
+                    <p class="productTitle">Air Force 1</p>
+                    <div class="prow">
+                        <div class="pcol">
+                            <p class="companyName">Nike</p>
+                            <p class="productPrice">$175</p>
+                        </div>
+                        <div class="pcol">
+                            <button type="button">Size</button>
+                            <button type="button">Add To Cart</button>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="card">
-                        <img src="assets/joel-muniz-bS_1xFUPgWU-unsplash.jpg" class="productImage">
-                        <p class="productTitle">Air Force 1 Jump</p>
-                        <div class="prow">
-                            <div class="pcol">
-                                <p class="companyName">Nike</p>
-                                <p class="productPrice">$190</p>
-                            </div>
-                            <div class="pcol">
-                                <button type="button">Size</button>
-                                <button type="button">Add To Cart</button>
-                            </div>
+
+                <div class="card">
+                    <img src="assets/joel-muniz-bS_1xFUPgWU-unsplash.jpg" class="productImage">
+                    <p class="productTitle">Air Force 1 Jump</p>
+                    <div class="prow">
+                        <div class="pcol">
+                            <p class="companyName">Nike</p>
+                            <p class="productPrice">$190</p>
+                        </div>
+                        <div class="pcol">
+                            <button type="button">Size</button>
+                            <button type="button">Add To Cart</button>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="assets/kris-gerhard-0BKZfcamvGg-unsplash.jpg"  class="productImage">
-                        <p class="productTitle">All Star High Top</p>
-                        <div class="prow">
-                            <div class="pcol">
-                                <p class="companyName">Converse</p>
-                                <p class="productPrice">$110</p>
-                            </div>
-                            <div class="pcol">
-                                <button type="button">Size</button>
-                                <button type="button">Add To Cart</button>
-                            </div>
+    
+                <div class="card">
+                    <img src="assets/kris-gerhard-0BKZfcamvGg-unsplash.jpg"  class="productImage">
+                    <p class="productTitle">All Star High Top</p>
+                    <div class="prow">
+                        <div class="pcol">
+                            <p class="companyName">Converse</p>
+                            <p class="productPrice">$110</p>
+                        </div>
+                        <div class="pcol">
+                            <button type="button">Size</button>
+                            <button type="button">Add To Cart</button>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="assets/ryan-plomp-jvoZ-Aux9aw-unsplash.jpg"  class="productImage">
-                        <p class="productTitle">Pastel Baby</p>
-                        <div class="prow">
-                            <div class="pcol">
-                                <p class="companyName">Nike</p>
-                                <p class="productPrice">$189</p>
-                            </div>
-                            <div class="pcol">
-                                <button type="button">Size</button>
-                                <button type="button">Add To Cart</button>
-                            </div>
+    
+                <div class="card">
+                    <img src="assets/ryan-plomp-jvoZ-Aux9aw-unsplash.jpg"  class="productImage">
+                    <p class="productTitle">Pastel Baby</p>
+                    <div class="prow">
+                        <div class="pcol">
+                            <p class="companyName">Nike</p>
+                            <p class="productPrice">$189</p>
+                        </div>
+                        <div class="pcol">
+                            <button type="button">Size</button>
+                            <button type="button">Add To Cart</button>
                         </div>
                     </div>
                 </div>
