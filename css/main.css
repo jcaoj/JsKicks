@@ -1,0 +1,181 @@
+/* SCREEN SIZES
+Tablet: max-width: 768px
+Phones: max-width: 480px
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.background {
+    overflow-y: scroll;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    background-position: center;
+    background-size: cover;
+    color: black;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+/* NAVBAR */
+.navbar {
+    padding-left: 2%;
+    padding-right: 4%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background: white;
+    border-bottom: #A6F0F5 solid 2px;
+}
+
+.logo {
+    width: 80px;
+    cursor: pointer;
+}
+
+.cart {
+    width: 50px;
+    margin-left: 5%;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    color: #A6F0F5;
+}
+
+.anchor{
+    display: block;
+    height: 6%; 
+    margin-top:-6%; 
+    visibility: hidden;
+}
+
+
+@media screen and (max-width: 768px) {
+    .anchor{
+        display: block;
+        height: 10%; 
+        margin-top:-10%; 
+        visibility: hidden;
+    }
+}
+  
+button {
+    width: 80%;
+    color: black;
+    font-size: 16px;
+    padding: 12px 0;
+    background: #A6F0F5;
+    border: #A6F0F5 1px solid;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 15px;
+    cursor: pointer;
+    display: inline;
+ }
+
+ button:hover {
+    background: grey;
+    color: #A6F0F5;
+ }
+
+ .row {
+    display: flex;
+    align-items: center;
+ }
+ .col {
+    flex-basis: 33%;
+ }
+
+ .prow {
+    display: flex;
+    align-items: last baseline;
+ }
+ .pcol {
+    flex-basis: 50%;
+ }
+
+ .productImage {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin: 0 0 2% 0;
+    border-radius: 10px 10px 0 0;
+ }
+ .card {
+    width: 95%;
+    height: 45%;
+    display: inline-block;
+    border: #A6F0F5 1px solid;
+    border-radius: 10px;
+    padding-bottom: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+ }
+
+ .card:hover {
+    border: black 1px solid;
+ }
+
+ .productTitle {
+    font-size: large;
+    font-weight: 600;
+    margin-left: 3%;
+    margin-bottom: 1%
+ }
+
+ .companyName {
+    font-size: medium;
+    font-weight: 300;
+    margin-left: 5%;
+ }
+ .productPrice {
+    font-size: large;
+    font-weight: 500;
+    margin-left: 5%;
+ }
+
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #A6F0F5;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #6aa7ac;
+}
+
