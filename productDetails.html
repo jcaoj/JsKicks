@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Js Kicks</title>
     <meta name="description" content="Your one stop sneaker shop!" />
@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="css/main.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="css/details.css" media="screen"/>
   </head>
 
   <body >
@@ -28,6 +29,95 @@
                 </ul>
               </nav>
               <img src="assets/cart.png" class="cart">
+            </div>
+
+            <div class="detailsRow">
+              <div id="productDetailsImage" class="detailsCol">
+                <img src="assets/erik-mclean-e_qqXYMDyfM-unsplash.jpg" alt="Air Force 1 shoes" class="productDetailsImage">
+              </div>
+              <div class="detailsCol">
+                <img id="smallProductsImage" src="assets/erik-mclean-e_qqXYMDyfM-unsplash.jpg" alt="Air Force 1 shoes" class="productDetailsImage">
+                <p class="productDetailsTitle">Air Force 1</p>
+                <p class="productDetailsCompanyName">Nike</p>
+                <p class="productDetailsPrice">$175</p>
+                <p class="productDetailsDescription">Let the fun shine through with these playful kicks. The legendary AF-1 design and 
+                  comfortable Air cushioning make this hoops original the perfect shoe for playing every day. Plus, this version features a 
+                  Swoosh logo that changes colour when exposed to UV light for fun in the sun with every step.</p>
+                <br>
+
+                <p class="productDetailsCompanyName">Select Size</p>
+
+                <button id="sizeDropdownButton" class="addToCartButton" type="button">Size</button>
+
+                <div id="sizeRow" class="detailsRow">
+                  <button class="sizeButton" type="button">US 5</button>
+                  <button class="sizeButton" type="button">US 5.5</button>
+                  <button class="sizeButton" type="button">US 6</button>
+                  <button class="sizeButton" type="button">US 6.5</button>
+                  <button class="sizeButton" type="button">US 7</button>
+                  <button class="sizeButton" type="button">US 7.5</button>
+                  <button class="sizeButton" type="button">US 8</button>
+                  <button class="sizeButton" type="button">US 8.5</button>
+                  <button class="sizeButton" type="button">US 9</button>
+                  <button class="sizeButton" type="button">US 9.5</button>
+                  <button class="sizeButton" type="button">US 10</button>
+                  <button class="sizeButton" type="button">US 10.5</button>
+                  <button class="sizeButton" type="button">US 11</button>
+                  <button class="sizeButton" type="button">US 11.5</button>
+                  <button class="sizeButton" type="button">US 12</button>
+                  <button class="sizeButton" type="button">US 12.5</button>
+                </div>
+                <div>
+                  <button class="addToCartButton" type="button">Add to Cart</button>
+                  <img src="assets/minus.png" alt="Minus quantity" class="quantityButtons">
+                  <p class="quantity">1</p>
+                  <img src="assets/plus.png" alt="Plus quantity" class="quantityButtons">
+                </div>
+
+                <div class="reviews">
+                  <p class="reviewTitle">Reviews (24)</p>
+                  <span class="blueStar">&bigstar;</span>
+                  <span class="blueStar">&bigstar;</span>
+                  <span class="blueStar">&bigstar;</span>
+                  <span class="blueStar">&bigstar;</span>
+                  <span class="greyStar">&bigstar;</span>
+
+                  <div id="reviewRow" class="detailsRow">
+                    <div class="reviewCard">
+                      <div class="prow">
+                          <div class="pcol">
+                              <p class="reviewSubject">I love these shoes</p>
+                             
+                          </div>
+                          <div class="pcolStars">
+                            <span class="smallBlueStar">&bigstar;</span>
+                            <span class="smallBlueStar">&bigstar;</span>
+                            <span class="smallBlueStar">&bigstar;</span>
+                            <span class="smallBlueStar">&bigstar;</span>
+                            <span class="smallBlueStar">&bigstar;</span>
+                        </div>
+                      </div>
+                      <p class="reviewerName">Jane Doe - Oct 17, 2023</p>
+                      <p class="reviewDescription">I wear these everyday and they hope up great!</p>
+                    </div>
+                    <div class="reviewCard">
+                      <div class="prow">
+                          <div class="pcol">
+                              <p class="reviewSubject">Pretty good</p>
+                             
+                          </div>
+                          <div class="pcolStars">
+                            <span class="smallBlueStar">&bigstar;</span>
+                            <span class="smallBlueStar">&bigstar;</span>
+                            <span class="smallBlueStar">&bigstar;</span>
+                            <span class="smallBlueStar">&bigstar;</span>
+                            <span class="smallGreyStar">&bigstar;</span>
+                        </div>
+                      </div>
+                      <p class="reviewerName">Kiara P - Oct 13, 2023</p>
+                      <p class="reviewDescription">I like them</p>
+                    </div>
+                </div>
             </div>
         </div>
     </header>

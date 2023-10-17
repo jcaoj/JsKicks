@@ -100,7 +100,6 @@ button {
     padding: 12px 0;
     background: #A6F0F5;
     border: #A6F0F5 1px solid;
-    border: 0;
     border-radius: 10px;
     outline: none;
     margin-top: 15px;
@@ -144,6 +143,7 @@ button {
     margin: 0 0 2% 0;
     border-radius: 10px 10px 0 0;
  }
+
  .card {
     width: calc(30% - 10px);
     height: 45%;

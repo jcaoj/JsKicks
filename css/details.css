@@ -1,0 +1,223 @@
+.detailsRow {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+ }
+
+.detailsCol {
+    width: calc(50% - 10px);
+}
+
+.productDetailsImage {
+    width: 80%;
+    margin: 5% 5% 5% 10%;
+    border-radius: 10px;
+}
+
+#smallProductsImage {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 10px;
+    display: none;
+}
+
+.productDetailsTitle {
+    margin-top: 5%;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.productDetailsCompanyName {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.productDetailsPrice {
+    margin-top: 1%;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.productDetailsDescription {
+    margin-top: 1%;
+    padding-right: 5%;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#sizeRow{
+    width: 95%;
+}
+
+.sizeButton {
+    width: calc(12% - 5px);
+    color: black;
+    font-size: 16px;
+    padding: 12px 0;
+    background: white;
+    border: #A6F0F5 1px solid;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    display: inline;
+ }
+
+ .sizeButton:hover {
+   border: black 1px solid;
+ }
+
+ .addToCartButton {
+    width: 180px;
+    color: black;
+    font-size: 16px;
+    padding: 12px 0;
+    background: #A6F0F5;
+    border: #A6F0F5 1px solid;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 15px;
+    cursor: pointer;
+    display: inline;
+ }
+
+ .addToCartButton:hover {
+    background: grey;
+    color: #A6F0F5;
+ }
+
+ #sizeDropdownButton {
+    display: none;
+ }
+
+ .quantityButtons {
+    width: 30px;
+    height: 30px;
+    margin: 15px 2% auto 2%;
+    display: inline;
+ }
+
+ .quantity {
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 15px;
+    display: inline;
+ }
+ 
+ .reviewTitle {
+    font-size: 20px;
+    font-weight: 500;
+    display: inline;
+ }
+
+ .blueStar {
+    font-size: 200%;
+    color: #A6F0F5;
+    display: inline;
+ }
+
+ .smallBlueStar {
+    font-size: 150%;
+    color: #A6F0F5;
+    display: inline;
+ }
+
+ .greyStar {
+    font-size: 200%;
+    color: grey;
+    display: inline;
+ }
+ .smallGreyStar {
+    font-size: 150%;
+    color: grey;
+    display: inline;
+ }
+ .reviewCard {
+    width: calc(48% - 10px);
+    height: 45%;
+    display: inline-block;
+    border: #A6F0F5 1px solid;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px 10px 0;
+ }
+
+ .reviewSubject {
+    font-size: 20px;
+    font-weight: 500;
+ }
+
+ .reviewerName {
+    font-size: 15px;
+    font-weight: 300;
+    color: grey;
+ }
+ .reviewDescription {
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+ }
+
+ .pcolStars {
+    top: 0;
+    right: 5px;
+ }
+
+ 
+@media screen and (max-width: 1555px) {
+    .reviewCard {
+        width: calc(90% - 10px);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .reviewCard {
+        width: calc(90% - 10px);
+    }
+
+
+    .sizeButton {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .sizeButton {
+        display: none;
+    }
+
+    #productDetailsImage {
+        display: none;
+    }
+    #sizeDropdownButton {
+        display: block;
+    }
+
+    #smallProductsImage {
+        display: block;
+    }
+
+    .detailsCol {
+        width: calc(95% - 10px);
+        padding-left: 5%;
+    }
+
+    .reviewCard {
+        width: calc(48% - 10px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .reviewCard {
+        width: calc(90% - 10px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+}
