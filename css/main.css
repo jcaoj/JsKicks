@@ -86,9 +86,15 @@ nav ul li a:hover {
         visibility: hidden;
     }
 }
-  
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
 button {
-    width: 80%;
+    width: 90%;
     color: black;
     font-size: 16px;
     padding: 12px 0;
@@ -126,6 +132,10 @@ button {
  .pcol {
     flex-basis: 50%;
  }
+ .pcolB {
+    flex-basis: 50%;
+    margin-right: auto;
+ }
 
  .productImage {
     width: 100%;
@@ -153,7 +163,7 @@ button {
  .productTitle {
     font-size: large;
     font-weight: 600;
-    margin-left: 3%;
+    margin-left: 5%;
     margin-bottom: 1%
  }
 
@@ -166,6 +176,7 @@ button {
     font-size: large;
     font-weight: 500;
     margin-left: 5%;
+    margin-top: 15%;
  }
 
 /* SCROLLBAR */
@@ -216,7 +227,7 @@ button {
 
 @media screen and (max-width: 480px) {
     .logo {
-        width: 30px;
+        height: 30px;
     }
     .navbarTitle {
         font-size: 20px;
